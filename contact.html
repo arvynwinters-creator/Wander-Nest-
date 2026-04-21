@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wander Nest | Contact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body data-page="contact">
+    <header class="site-header">
+        <div class="container nav-shell">
+            <a class="brand" href="index.html">
+                <img src="Website-logo.png" alt="Wander Nest logo">
+                <span>Wander Nest</span>
+            </a>
+            <button class="menu-toggle" type="button" aria-label="Toggle menu" aria-expanded="false">Menu</button>
+            <nav class="site-nav">
+                <a href="index.html" data-nav="home">Home</a>
+                <a href="destinations.html" data-nav="destinations">Plans</a>
+                <a href="tickets.html" data-nav="tickets">Tickets</a>
+                <a href="contact.html" data-nav="contact">Contact</a>
+                <a href="login.html">Login</a>
+            </nav>
+            <a class="nav-cta" href="tickets.html">Book Now</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div class="container page-hero-grid">
+                <div class="page-hero-copy reveal">
+                    <p class="eyebrow">Contact and inquiry</p>
+                    <h1>Give travelers one clear place to ask, confirm, and book.</h1>
+                    <p>Use this page for package questions, ticket requests, or custom group tours.</p>
+                </div>
+                <div class="glass-card reveal">
+                    <p class="mini-label">Support promise</p>
+                    <ul class="bullet-list">
+                        <li>Responses for ticket requests within 1 business hour</li>
+                        <li>Custom trip planning for families, couples, and groups</li>
+                        <li>Pre-departure support from booking to airport day</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container contact-grid">
+                <article class="contact-card reveal">
+                    <span>Office</span>
+                    <h3>Visit our desk</h3>
+                    <p>25 Lake View Avenue, Dhaka Travel District</p>
+                </article>
+                <article class="contact-card reveal">
+                    <span>Phone</span>
+                    <h3>Talk to sales</h3>
+                    <p>+880 1234 567 890</p>
+                </article>
+                <article class="contact-card reveal">
+                    <span>Email</span>
+                    <h3>Send an inquiry</h3>
+                    <p>bookings@wandernest.com</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="section section-warm">
+            <div class="container" style="max-width: 760px;">
+                <form class="form-shell reveal">
+                    <h3>Plan your booking</h3>
+                    <div class="form-grid">
+                        <div>
+                            <label for="name">Full name</label>
+                            <input id="name" type="text" placeholder="Your name">
+                        </div>
+                        <div>
+                            <label for="email">Email address</label>
+                            <input id="email" type="email" placeholder="you@example.com">
+                        </div>
+                        <div>
+                            <label for="destination">Interested destination</label>
+                            <input id="destination" type="text" placeholder="Bali, Dubai, Nepal...">
+                        </div>
+                        <div>
+                            <label for="message">Trip details</label>
+                            <textarea id="message" placeholder="Tell us your dates, traveler count, and package needs"></textarea>
+                        </div>
+                        <button class="button button-primary" type="submit">Send inquiry</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-shell">
+            <p>Wander Nest</p>
+            <p>Built to turn travel questions into confirmed bookings.</p>
+            <p>&copy; <span id="year"></span> Wander Nest</p>
+        </div>
+    </footer>
+
+    <script src="t-script.js"></script>
+</body>
+</html>

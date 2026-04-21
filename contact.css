@@ -1,0 +1,49 @@
+@import url("shared.css");
+
+.contact-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.contact-card {
+  background: rgba(255, 255, 255, 0.72);
+}
+
+.form-shell {
+  background: #12304a;
+  color: #fff;
+  border-radius: var(--radius-lg);
+  padding: 1.8rem;
+  box-shadow: var(--shadow);
+}
+
+.form-shell h3 {
+  margin-top: 0;
+  font-size: 1.5rem;
+}
+
+.form-grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.form-shell input,
+.form-shell select,
+.form-shell textarea {
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 14px;
+  padding: 0.95rem 1rem;
+  background: rgba(255, 255, 255, 0.08);
+  color: #fff;
+  font: inherit;
+}
+
+.form-shell input::placeholder,
+.form-shell textarea::placeholder {
+  color: rgba(255, 255, 255, 0.58);
+}
+
+.form-shell textarea {
+  min-height: 130px;
+  resize: vertical;
+}
